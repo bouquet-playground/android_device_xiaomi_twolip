@@ -41,7 +41,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/tulip.config
+TARGET_KERNEL_CONFIG += vendor/tulip-perf_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
@@ -56,4 +56,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
-include vendor/xiaomi/twolip/BoardConfigVendor.mk
+include wvendor/xiaomi/twolip/BoardConfigVendor.mk
