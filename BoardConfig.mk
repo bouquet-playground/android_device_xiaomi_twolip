@@ -27,6 +27,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/twolip
 
+# Duplicates
+BUILD_BROKEN_DUP_RULES := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 
