@@ -23,7 +23,7 @@
 #
 
 # Inherit from sdm660-common
-include device/xiaomi/sdm660-common/BoardConfigCommon.mk
+include device/xiaomi/bouquet-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/twolip
 
