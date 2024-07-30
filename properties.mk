@@ -15,3 +15,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.imx376_ofilm.low.lux=290 \
     persist.vendor.imx376_sunny.light.lux=275 \
     persist.vendor.imx376_sunny.low.lux=290
+
+# Device Mask
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/barbet/barbet:14/AP2A.240705.004/11875680:user/release-keys \
+    ro.product.brand=google \
+    ro.product.device=barbet \
+    ro.product.manufacturer=Google \
+    ro.product.model=Pixel 5a \
+    ro.product.name=barbet
