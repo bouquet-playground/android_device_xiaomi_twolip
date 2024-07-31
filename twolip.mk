@@ -30,6 +30,7 @@ PRODUCT_DEVICE := twolip
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := twolip
 PRODUCT_MODEL := Redmi Note 6 Pro
+TARGET_DEVICE := tulip
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
