@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twolip.mk
+    $(LOCAL_DIR)/statix_twolip.mk
 
 COMMON_LUNCH_CHOICES := \
-    twolip-user \
-    twolip-userdebug \
-    twolip-eng
+    statix_twolip-user \
+    statix_twolip-userdebug \
+    statix_twolip-eng
