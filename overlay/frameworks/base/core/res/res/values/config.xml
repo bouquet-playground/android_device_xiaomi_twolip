@@ -161,4 +161,7 @@
         C-297.156539,0.363960295 -299.941007,0 -303,0
         Z
     </string>
+
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user/release-keys</string>
 </resources>
